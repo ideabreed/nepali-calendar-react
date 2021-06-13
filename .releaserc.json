@@ -1,5 +1,5 @@
 {
-  "branches": ["develop"],
+  "branches": ["master"],
   "repositoryUrl": "https://github.com/SonwalkarConsultingGroup/chatbackend.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
