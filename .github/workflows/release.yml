@@ -1,0 +1,21 @@
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+      - name: Use NodeJS v14.16.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.16.0
+      - name: Install dependencies
+        run: npm ci
+      - name: Create new release
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
