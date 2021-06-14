@@ -4,7 +4,7 @@
   "description": "Made with create-react-library",
   "author": "Sajandhakal12",
   "license": "MIT",
-  "repository": "Sajandhakal12/nepali-calendar-react",
+  "repository": "ideabreed/nepali-calendar-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -35,7 +35,7 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/npm": "^7.1.3",
     "@semantic-release/release-notes-generator": "^9.0.3",
-    "microbundle-crl": "^0.13.10",
+    "@testing-library/react": "^11.2.7",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -49,11 +49,14 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "jest-dom": "^4.0.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-test-renderer": "^17.0.2"
   },
   "files": [
     "dist/index.js",
