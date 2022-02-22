@@ -58,6 +58,12 @@
     "react-scripts": "^3.4.1",
     "react-test-renderer": "^17.0.2"
   },
+  "keywords": [
+    "calendar",
+    "nepali calendar",
+    "react calendar",
+    "nepali calendar react"
+  ],
   "files": [
     "dist/index.js",
     "index.css"
