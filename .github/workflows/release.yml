@@ -8,10 +8,10 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      - name: Use NodeJS v14.16.0
+      - name: Use NodeJS v14.17.1
         uses: actions/setup-node@v1
         with:
-          node-version: 14.16.0
+          node-version: 14.17.1
       - name: Install dependencies
         run: npm run ci
       - name: Create new release
