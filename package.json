@@ -1,6 +1,6 @@
 {
   "name": "nepali-calendar-react",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Made with create-react-library",
   "author": "Sajandhakal12",
   "license": "MIT",
@@ -26,7 +26,7 @@
     "ci": "yarn install --frozen-lockfile"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
@@ -66,6 +66,6 @@
   ],
   "files": [
     "dist/index.js",
-    "index.css"
+    "dist/index.css"
   ]
 }
